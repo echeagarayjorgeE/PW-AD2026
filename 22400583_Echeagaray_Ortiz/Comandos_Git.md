@@ -6,7 +6,7 @@
 
 3. git config: Configura opciones de usuario (nombre, correo, etc.)
    "git config --global user.name 'Jorge'"
-   "git config --global user.email 'jorge@example.com'"
+   "git config --global user.email 'jorgeemilio@gmail.com'"
 
 4. git add: Añade archivos al área de preparación (staging)
    "git add archivo.txt"

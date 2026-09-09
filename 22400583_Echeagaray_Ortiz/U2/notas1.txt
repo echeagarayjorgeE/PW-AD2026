@@ -1,0 +1,63 @@
+ *** U1 ***
+
+HTML Y CSS
+HTML: 
+    Es la estructura de las paginas web. por sus siglas: hyper text markup languaje.
+CSS: 
+    Estilo y diseño, define la presentacion visual de los documentos web.
+
+HTML: Etiquetas:
+    <nombre></nombre>, <title> ¡HOLA MUNDO! </title>, <p></p>, <br>, <img>, <hr>
+
+    Propiedades de las etiquetas: 
+        <img src="imagen.png">
+        <a href="www.enlace.com">
+            mi_enlace
+        </a>
+
+    Estructura global del documento web 
+        * declaracion doctype: define la version de html para una correcta interpretacion.
+        * sección head: metadatos del documento como el titulo, enlaces a hoja de Estilo.
+            La correcta sintaxis es crucial para la visualizacion en los navegadores
+        * etiqueta html: contiene todo el contenido del documento web.
+        * seccion body: contiene el contenido visible para el usuario en el navegador.
+
+        <!DOCTYPE html>
+        <html lang="es">
+            <head>
+
+                <meta charset="UTF-8 /">
+                <title> EJEMPLO PAGINA </title>
+            
+            </head>
+        
+            <body>
+            
+                hola mundo xd
+            
+            </body>
+
+        </html>        
+
+    Elementos basicos de HTML
+        * textos y vinculos: 
+            <p>parrafos | encabezados</p>, 
+            <h1>organiza contenido</h1>, 
+            <a>vinculos</a>
+        * listas y tablas: 
+            <ul>lista numeral</ul>, 
+            <ol> order list</ol>, 
+            <table>datos en cuadricula</table>
+        * imagenes y objetos: 
+            <img>
+
+    formularios: 
+        Los formularios html permiten a los usuarios interactuar y enviar datos a un servidor. 
+        Se utilizan para registros, comentarios y busquedas.
+            * Etiqueta FORM:
+                Contenido principal para todos los elementos del formulario
+            * campos INPUT
+                Textos, contraseñas, numeros, fechas...
+            * TEXTAREA y SELECT
+                Areas de texto grandes, menus desplegables
+

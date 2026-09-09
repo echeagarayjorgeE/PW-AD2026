@@ -1,0 +1,42 @@
+20 ETIQUETAS DE HTML
+
+1. <head></head>:
+    Texto no visible (metadatos, palabras, clave, codigo de idioma)
+2. <body></body>:
+    texto visible
+3. <title></title>:
+    Texto de la pestaña en el navegador
+4. <div></div>:
+    contenido en bloque
+5. <span></span>:
+    contenido en linea
+6. <h1,2,3,4,5,6></h1,2,3,4,5,6>.
+    encabezados de mayor a menor importancia
+7. <p></p>: 
+    parrafos
+8. <br>:    
+    salto de linea
+9. <ul></ul>:   
+    lista con viñetas
+10. <ol></ol>:
+    lista numerica
+11. <li></li>:
+    elemento de la lista
+12. <strong></strong>:
+    negrita (enfasis semantico)
+13. <b></b>:    
+    negrita (enfasis estilistico)
+14. <em></em>:
+    cursiva (enfasis semantico)
+15. <i></i>:
+    cursiva (enfasis estilistico)
+16. <u></u>:
+    subrayado
+17. <s></s>:
+    tachado
+18. <a href=""></a>:
+    enlace
+19. <img src="" alt="">
+    imagen y texto alternativo (accesibilidad)
+20. <button></button>:
+    boton

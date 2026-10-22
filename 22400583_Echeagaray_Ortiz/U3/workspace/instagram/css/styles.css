@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container{
+    max-width: 400px;
+    margin: 0 auto;
+    border-left: 1px solid #262626;
+    border-right: 1px solid #262626;
+    min-height: 100vh;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.nav-center{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.nav-right{
+    display: flex;
+    gap: 15;
+}
+
+.profile-header{
+    display: flex;
+    align-items: center;
+    padding: 10px, 15px, 20px, 15px;
+    gap: 20px;
+}
+
+.profile-pic-container{
+    position: relative;
+    flex-shrink: 0;
+}
+
+.profile-pic{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.add-story-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fcfcfc;
+    color: #000000;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #000000;
+    border-radius: 50%;
+}
+
+.profile-stats{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.stat-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.stat-item strong{
+    font-size: 16px;
+}

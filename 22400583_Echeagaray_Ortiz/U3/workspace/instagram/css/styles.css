@@ -1,16 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-body{
+body {
     background-color: #000000;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.app-container{
+
+
+.app-container {
     max-width: 400px;
     margin: 0 auto;
     border-left: 1px solid #262626;
@@ -18,7 +20,7 @@ body{
     min-height: 100vh;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,37 +28,37 @@ body{
     font-size: 22px;
 }
 
-.nav-center{
+.nav-center {
     font-size: 18px;
     font-weight: bold;
 
 }
 
-.nav-right{
+.nav-right {
     display: flex;
     gap: 15;
 }
 
-.profile-header{
+.profile-header {
     display: flex;
     align-items: center;
     padding: 10px, 15px, 20px, 15px;
     gap: 20px;
 }
 
-.profile-pic-container{
+.profile-pic-container {
     position: relative;
     flex-shrink: 0;
 }
 
-.profile-pic{
+.profile-pic {
     width: 85px;
     height: 85px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.add-story-btn{
+.add-story-btn {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -73,19 +75,63 @@ body{
     border-radius: 50%;
 }
 
-.profile-stats{
+.profile-stats {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.stat-item{
+.stat-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
+    padding-left: 10px;
 }
 
-.stat-item strong{
+.stat-item strong {
     font-size: 16px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.profile-bio {
+    padding: 0 15px 20px 15px;
+}
+
+.bio {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.action-btn {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    flex: 1;
+    background-color: #363636;
+    color: #ffffff;
+    border: none;
+    padding: 8px 0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.icon-btn{
+    flex: 0 0 40px;
+}
+
+.profile-tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
 }
